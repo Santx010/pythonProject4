@@ -1,0 +1,17 @@
+La función que he proporcionado calcula el promedio de las temperaturas semanales para cada ciudad a partir de un diccionario que contiene los nombres de las ciudades como claves y las temperaturas semanales como valores.
+Desglose del funcionamiento:
+Entrada de datos:
+La función recibe un diccionario llamado ciudades-temperaturas. En este diccionario, las claves son los nombres de las ciudades (por ejemplo, 'Ciudad A') y los valores son listas de temperaturas semanales (por ejemplo, [30, 32, 29, 31]).
+Proceso de cálculo:
+La función utiliza un bucle for para recorrer el diccionario, obteniendo para cada ciudad su lista de temperaturas.
+-  Para calcular el promedio de las temperaturas de cada ciudad:
+          Suma todas las temperaturas de la lista con sum(temperaturas).
+          Divide la suma entre el número de temperaturas con len(temperaturas) para obtener el promedio.
+-  Este promedio se almacena en un nuevo diccionario llamado promedios.
+Salida de datos:
+-  Después de procesar todas las ciudades, la función devuelve un nuevo diccionario, donde las claves son los nombres de las ciudades y los valores son sus respectivas temperaturas promedio.
+Resumen del flujo:
+1.	Recibes los datos de entrada en un diccionario.
+2.	Para cada ciudad, la función toma la lista de temperaturas, las suma y luego calcula el promedio.
+3.	Devuelves el promedio de cada ciudad en un nuevo diccionario.
+4.	Imprimes los resultados de manera amigable para que se puedan ver fácilmente.
